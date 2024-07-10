@@ -1,6 +1,4 @@
-package DSA;
-
-import javax.swing.*;
+package DSA.String;
 
 public class Strings {
     public static void main(String[] args) {

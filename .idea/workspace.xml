@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable" />
+    <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/CompressString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/StringBuffer12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/StringBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/StringPractcie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/StringRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/String/StringtoInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/String/Strings.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -28,7 +39,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ashpak81/Java-program.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/ashpak81/Programs.git&quot;,
     &quot;accountId&quot;: &quot;2c2f6920-ed1e-4bd1-91ec-f91ef6ae87bc&quot;
   }
 }</component>
@@ -48,6 +59,7 @@
     "Application.Array_practice.executor": "Run",
     "Application.Arrays.executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.CompressString.executor": "Run",
     "Application.Encapsulation.executor": "Run",
     "Application.Inheritanc.executor": "Run",
     "Application.Loop.executor": "Run",
@@ -56,15 +68,21 @@
     "Application.Methods_practice.executor": "Run",
     "Application.Patter.executor": "Run",
     "Application.Polymorphism.executor": "Run",
+    "Application.StringBuilderExample.executor": "Run",
+    "Application.StringPractcie.executor": "Run",
+    "Application.StringRotation.executor": "Run",
     "Application.Strings.executor": "Run",
+    "Application.StringtoInteger.executor": "Run",
     "Application.Variable.executor": "Run",
     "Application.duplicateElement.executor": "Run",
     "Application.elementRearranging.executor": "Run",
     "Application.leaderInArray.executor": "Run",
+    "Application.practice.executor": "Run",
     "Application.pushZerosInArray.executor": "Run",
     "Application.swapArraay.executor": "Run",
     "Application.switchcase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/FSD-java/FSD-Programs/Practice/src/Main.java"
   }
