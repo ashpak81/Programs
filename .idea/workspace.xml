@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/DSA/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Recursion/FibonaciSereas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Recursion/Recursion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraySnake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MultiDimentionalArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/String/LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/String/LongestSubstring.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   "keyToString": {
     "Application.AbstracClass.executor": "Run",
     "Application.AccessModifier.executor": "Run",
+    "Application.ArraySnake.executor": "Run",
     "Application.Array_practice.executor": "Run",
     "Application.Arrays.executor": "Run",
     "Application.Book.executor": "Run",
@@ -63,6 +62,7 @@
     "Application.Main.executor": "Run",
     "Application.Mainclass.executor": "Run",
     "Application.Methods_practice.executor": "Run",
+    "Application.MultiDimentionalArray.executor": "Run",
     "Application.Patter.executor": "Run",
     "Application.Polymorphism.executor": "Run",
     "Application.Recursion1.executor": "Run",
