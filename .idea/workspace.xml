@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraySnake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/MultiDimentionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LinkedListPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Array/ArraySnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Array/ArraySnake.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,8 @@
     "Application.Factorial.executor": "Run",
     "Application.FibonaciSereas.executor": "Run",
     "Application.Inheritanc.executor": "Run",
+    "Application.LL.executor": "Run",
+    "Application.LinkedListPractice.executor": "Run",
     "Application.Loop.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Mainclass.executor": "Run",
