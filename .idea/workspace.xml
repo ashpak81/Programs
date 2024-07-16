@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LinkedListPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Array/ArraySnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Array/ArraySnake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/LL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,48 +44,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstracClass.executor": "Run",
-    "Application.AccessModifier.executor": "Run",
-    "Application.ArraySnake.executor": "Run",
-    "Application.Array_practice.executor": "Run",
-    "Application.Arrays.executor": "Run",
-    "Application.Book.executor": "Run",
-    "Application.CompressString.executor": "Run",
-    "Application.Encapsulation.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FibonaciSereas.executor": "Run",
-    "Application.Inheritanc.executor": "Run",
-    "Application.LL.executor": "Run",
-    "Application.LinkedListPractice.executor": "Run",
-    "Application.Loop.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Mainclass.executor": "Run",
-    "Application.Methods_practice.executor": "Run",
-    "Application.MultiDimentionalArray.executor": "Run",
-    "Application.Patter.executor": "Run",
-    "Application.Polymorphism.executor": "Run",
-    "Application.Recursion1.executor": "Run",
-    "Application.StringBuilderExample.executor": "Run",
-    "Application.StringPractcie.executor": "Run",
-    "Application.StringRotation.executor": "Run",
-    "Application.Strings.executor": "Run",
-    "Application.StringtoInteger.executor": "Run",
-    "Application.Variable.executor": "Run",
-    "Application.duplicateElement.executor": "Run",
-    "Application.elementRearranging.executor": "Run",
-    "Application.leaderInArray.executor": "Run",
-    "Application.practice.executor": "Run",
-    "Application.pushZerosInArray.executor": "Run",
-    "Application.swapArraay.executor": "Run",
-    "Application.switchcase.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/FSD-java/FSD-Programs/Practice/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstracClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccessModifier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySnake.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompressString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonaciSereas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritanc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mainclass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiDimentionalArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Patter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPractcie.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringtoInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.duplicateElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.elementRearranging.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leaderInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pushZerosInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swapArraay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.switchcase.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/FSD-java/FSD-Programs/Practice/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
