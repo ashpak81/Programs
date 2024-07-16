@@ -11,6 +11,16 @@ class Node {
     }
 }
 
+class Node2{
+    String data;
+    Node2 next;
+    Node2(String data){
+        this.data = data;
+        next = null;
+    }
+
+}
+
 public class LL {
 
     int size = 0;
@@ -19,8 +29,11 @@ public class LL {
 
     Node head;
 
+    Node2 head2;
+
     LL() {
         head = null;
+        head2 = null;
     }
 
     // Element At the End
@@ -131,21 +144,66 @@ public class LL {
     void sum(){
 
         StringBuilder sc = new StringBuilder();
-
+    // int sum = 0;
         Node last = head;
 
         while (last != null) {
             sc.append(last.data);
+//            sum +=last.data
             last = last.next;
         }
         System.out.println(sc);
     }
 
 
+    // For second Linked List
+
+    void addfirstNode2(String data){
+        Node2 newNode = new Node2(data);
+        if(head2==null){
+            head2= newNode;
+            return;
+        }
+        newNode.next = head2;
+        head2 = newNode;
+    }
+
+    boolean newPalindrome(){
+
+
+        Node last = head;
+        while (last != null) {
+                addfirstNode2(last.data);
+            last = last.next;
+        }
+        Node first = head;
+        Node2 second = head2;
+
+        while (first != null) {
+            if(first.data != second.data)
+                return false;
+            first = first.next;
+            second = second.next;
+        }
+        return true;
+
+    }
+
+    // Print List element
+    void printList2() {
+        Node2 last = head2;
+        while (last != null) {
+            System.out.println(" List 2 "+last.data + " ");
+            last = last.next;
+        }
+    }
+
+
+
+
     public static void main(String[] args) {
 
         LL list = new LL();
-        
              
         list.AddLast("A");
         list.AddLast("A");
@@ -154,11 +212,14 @@ public class LL {
         list.AddLast("A");
         
         list.printList();
-        System.out.println("Size of LinkedList " + list.size());
+//        System.out.println("Size of LinkedList " + list.size());
+//
+//        list.reversLinkedList();
+//        list.printList();
+//        list.sum();
+        System.out.println("New List");
+        list.printList2();
+        System.out.println(list.newPalindrome());
 
-        list.reversLinkedList();
-        list.printList();
-        list.palindrome();
-        list.sum();
     }
 }
