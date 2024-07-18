@@ -1,5 +1,4 @@
 package DSA.LinkedList;
-
 class Node {
 
     String data;
@@ -11,10 +10,11 @@ class Node {
     }
 }
 
-class Node2{
+class Node2 {
     String data;
     Node2 next;
-    Node2(String data){
+
+    Node2(String data) {
         this.data = data;
         next = null;
     }
@@ -141,10 +141,10 @@ public class LL {
 
     // Sum of Linked list element
 
-    void sum(){
+    void sum() {
 
         StringBuilder sc = new StringBuilder();
-    // int sum = 0;
+        // int sum = 0;
         Node last = head;
 
         while (last != null) {
@@ -158,33 +158,34 @@ public class LL {
 
     // For second Linked List
 
-    void addfirstNode2(String data){
+    void addfirstNode2(String data) {
         Node2 newNode = new Node2(data);
-        if(head2==null){
-            head2= newNode;
+        if (head2 == null) {
+            head2 = newNode;
             return;
         }
         newNode.next = head2;
         head2 = newNode;
     }
 
-    boolean newPalindrome(){
-
+    boolean newPalindrome() {
 
         Node last = head;
         while (last != null) {
-                addfirstNode2(last.data);
+            addfirstNode2(last.data);
             last = last.next;
         }
+
         Node first = head;
         Node2 second = head2;
 
         while (first != null) {
-            if(first.data != second.data)
+            if (first.data != second.data)
                 return false;
             first = first.next;
             second = second.next;
         }
+
         return true;
 
     }
@@ -193,24 +194,22 @@ public class LL {
     void printList2() {
         Node2 last = head2;
         while (last != null) {
-            System.out.println(" List 2 "+last.data + " ");
+            System.out.println(" List 2 " + last.data + " ");
             last = last.next;
         }
     }
 
 
-
-
     public static void main(String[] args) {
 
         LL list = new LL();
-             
+
         list.AddLast("A");
         list.AddLast("A");
         list.AddLast("B");
         list.AddLast("A");
         list.AddLast("A");
-        
+
         list.printList();
 //        System.out.println("Size of LinkedList " + list.size());
 //
