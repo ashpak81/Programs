@@ -114,6 +114,7 @@ class TimePass {
         list.add(6);
         list.addFirst(0);
 
+
         list.print();
         list.delete();
         System.out.println();
