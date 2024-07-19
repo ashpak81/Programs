@@ -18,7 +18,6 @@ class Node2 {
         this.data = data;
         next = null;
     }
-
 }
 
 public class LL {
@@ -219,6 +218,8 @@ public class LL {
         System.out.println("New List");
         list.printList2();
         System.out.println(list.newPalindrome());
+
+
 
     }
 }
