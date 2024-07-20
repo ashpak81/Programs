@@ -1,6 +1,6 @@
 package DSA.LinkedList;
 
-class TimePass {
+class DoublyLinkedList {
 
     Node head;
     Node tail;
@@ -104,7 +104,7 @@ class TimePass {
 
     public static void main(String[] args) {
 
-        TimePass list = new TimePass();
+        DoublyLinkedList list = new DoublyLinkedList();
 
         list.add(1);
         list.add(2);

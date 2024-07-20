@@ -1,6 +1,6 @@
 package DSA.LinkedList;
 
-public class TimePass2 {
+public class Practic1 {
 
         Node head;
         class Node{
@@ -41,7 +41,7 @@ public class TimePass2 {
 
     public static void main(String[] args) {
 
-            TimePass2 list = new TimePass2();
+        Practic1 list = new Practic1();
 
             list.add(4);
             list.add(4);
