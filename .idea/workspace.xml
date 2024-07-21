@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/DSA/LinkedList/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Stack/StackPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Recursion/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Stack/PushAtBottomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Stack/StackUsingLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/LinkedList/TimePass$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/LinkedList/TimePass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/LinkedList/TimePass2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/LinkedList/TimePass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/StackDataStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/StackDataStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/TimePass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/LinkedList/TimePass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/LinkedList/Practic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/TimePass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Stack/StackPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Stack/StackPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +74,12 @@
     "Application.MultiDimentionalArray.executor": "Run",
     "Application.Patter.executor": "Run",
     "Application.Polymorphism.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PushAtBottomStack.executor": "Run",
     "Application.Recursion1.executor": "Run",
     "Application.StackDataStructure.executor": "Run",
+    "Application.StackPractice.executor": "Run",
+    "Application.StackUsingLinkedList.executor": "Run",
     "Application.StringBuilderExample.executor": "Run",
     "Application.StringPractcie.executor": "Run",
     "Application.StringRotation.executor": "Run",
