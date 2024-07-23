@@ -1,12 +1,11 @@
 package DSA.Stack;
-
 import java.util.Stack;
 
 public class BalanceParentheses {
 
     public static void main(String[] args) {
 
-        String par = "[{()}}";
+        String par = "[{()}]";
 
         Stack<Character> st = new Stack<>();
 
@@ -29,5 +28,4 @@ public class BalanceParentheses {
         }
         System.out.println(ans);
     }
-
 }
