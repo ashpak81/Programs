@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/DSA/Stack/Submission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Recursion/printXn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Stack/checkNext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/BalanceParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/BalanceParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/StackPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/StackPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Stack/BalanceParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Stack/BalanceParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Stack/StackPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Stack/StackPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/sortAStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/sortAStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Stack/sortAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Stack/sortAStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +91,14 @@
     "Application.TimePass.executor": "Debug",
     "Application.TimePass2.executor": "Run",
     "Application.Variable.executor": "Run",
+    "Application.checkNext.executor": "Run",
     "Application.duplicateElement.executor": "Run",
     "Application.elementRearranging.executor": "Run",
     "Application.leaderInArray.executor": "Run",
     "Application.practice.executor": "Run",
+    "Application.printXn.executor": "Run",
     "Application.pushZerosInArray.executor": "Run",
+    "Application.sortAStack.executor": "Run",
     "Application.swapArraay.executor": "Run",
     "Application.switchcase.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
