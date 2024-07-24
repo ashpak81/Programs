@@ -5,30 +5,38 @@ import java.util.Stack;
 public class checkNext {
 
     public static void main(String[] args) {
-        Stack<Integer> st = new Stack<>();
 
-        st.push(7);
-        st.push(6);
-        st.push(1);
-        st.push(2);
+        Stack<Integer> stack = new Stack<>();
 
-        while (!st.isEmpty()) {
-            int x = st.pop();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(2);
+        stack.push(4);
+        stack.push(2);
+        stack.push(2);
+        stack.push(5);
+        stack.push(2);
+
+        Stack<Integer> tempStack = new Stack<>();
 
 
-            if(st.isEmpty()){
-                System.out.println(x + " - > " + "-1");
-                break;
+        while (!stack.isEmpty()) {
+
+            int current = stack.pop();
+
+            while (! tempStack.isEmpty() && tempStack.peek() <= current) {
+                tempStack.pop();
             }
-            if (x < st.peek()){
-                System.out.println(x + " - >" + st.peek());
-            } else if (x > st.peek()) {
-                int temp = st.pop();
-                System.out.println(x + " - >" + st.peek());
-                st.push(temp);
+
+            if (tempStack.isEmpty()) {
+                System.out.println(current + " -> " + "-1");
+            } else {
+                System.out.println(current + " -> " + tempStack.peek());
             }
 
+            tempStack.push(current);
         }
-
+        
     }
 }
