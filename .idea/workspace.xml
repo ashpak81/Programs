@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/PatternPrinting/PracticeImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracrticeDSA/MargeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracrticeDSA/PracticeQuations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracrticeDSA/SortedRows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracrticeDSA/magicSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracrticeDSA/rotateLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracrticeDSA/swapLinkedListElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/checkNext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/Stack/checkNext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Queue/QueueUsingLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Queue/QueueUsingLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PatternPrinting/PracticeImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternPrinting/PracticeImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
