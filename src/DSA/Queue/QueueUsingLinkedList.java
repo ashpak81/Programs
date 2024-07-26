@@ -7,10 +7,6 @@ public class QueueUsingLinkedList {
 
     public static void main(String[] args) {
 
-        Queue<Integer> ts = new LinkedList<>();
-
-
-
 
 
     }
