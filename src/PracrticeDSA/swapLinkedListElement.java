@@ -30,6 +30,10 @@ public class swapLinkedListElement {
         currNode.next = newNode;
     }
 
+
+
+    // Solve using only swapping data in LinkedList Easy way
+
     public void swapLinkedList() {
         if (head == null || head.next == null) {
             return;
@@ -40,6 +44,7 @@ public class swapLinkedListElement {
         Node curr = head;
 
         while (curr != null && curr.next != null) {
+
             Node nextPair = curr.next.next;
             Node second = curr.next;
             second.next = curr;

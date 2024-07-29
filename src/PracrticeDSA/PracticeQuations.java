@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PracticeQuations {
 
-    int delToMkPalindrom(String str) {
+    static int delToMkPalindrom(String str) {
 
         int count = 0, i = 0, j = str.length() - 1;
 
@@ -98,8 +98,8 @@ public class PracticeQuations {
 
 
 
-        String str = "gg";
-        System.out.println(distinctSubsequences(str));
+        String str = "aebcbda";
+        System.out.println(delToMkPalindrom(str));
 
 
 

@@ -21,6 +21,7 @@ public class SortedRows {
         }
 
         for (int i = 0; i < m; i++) {
+
             boolean increasing = true;
             boolean decreasing = true;
 
