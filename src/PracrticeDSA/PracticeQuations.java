@@ -9,10 +9,12 @@ public class PracticeQuations {
         int count = 0, i = 0, j = str.length() - 1;
 
         while (i < j) {
+
             if (str.charAt(i) == str.charAt(j)) {
                 i++;
                 j--;
             } else {
+
                 if ((str.charAt(i) == str.charAt(j - 1)) || (str.charAt(j) == str.charAt(i + 1)))
                     count++;
                 else
@@ -20,14 +22,17 @@ public class PracticeQuations {
 
                 if (str.charAt(i) == str.charAt(j - 1))
                     j--;
+
                 else if (str.charAt(j) == str.charAt(i + 1))
                     i++;
+
                 else {
                     i++;
                     j--;
                 }
             }
         }
+
         return count;
     }
 
@@ -66,14 +71,16 @@ public class PracticeQuations {
         if (str.length() == 1)
             return 2;
 
-        if(str.isEmpty())
+        if (str.isEmpty())
             return 0;
 
         ArrayList<String> subString = new ArrayList<>();
 
         for (int i = 0; i < str.length(); i++) {
             for (int j = i; j < str.length(); j++) {
+
                 StringBuilder sb = new StringBuilder();
+
                 for (int k = i; k <= j; k++) {
                     sb.append(str.charAt(k));
                 }
@@ -81,9 +88,11 @@ public class PracticeQuations {
             }
         }
 
+
         for (int i = 0; i < subString.size(); i++) {
-            for(int j = i+1 ;j < subString.size();j++){
-                if(subString.get(i).equals(subString.get(j))){
+            System.out.println(subString.get(i));
+            for (int j = i + 1; j < subString.size(); j++) {
+                if (subString.get(i).equals(subString.get(j))) {
                     subString.remove(j);
                 }
             }
@@ -92,16 +101,10 @@ public class PracticeQuations {
         return subString.size() + 1;
     }
 
-
-
     public static void main(String[] args) {
 
-
-
-        String str = "aebcbda";
-        System.out.println(delToMkPalindrom(str));
-
-
+        String str = "abcd";
+        System.out.println(distinctSubsequences(str));
 
     }
 }
