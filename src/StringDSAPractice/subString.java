@@ -87,13 +87,13 @@ public class subString {
 
     public static void main(String[] args) {
 
-        String str = "abbace";
-        String str2 = "b";
+        String str = "aab";
+        String str2 = "ab";
 
         String[] s1 = findSubSequence(str);
-//        String[] s2 = findSubSequence(str2);
+        String[] s2 = findSubSequence(str2);
 
-//        System.out.println(longestUncommonSubsequence(s1,s2));
+        System.out.println(longestUncommonSubsequence(s1,s2));
 
 
     }
