@@ -6,6 +6,8 @@ import java.util.Map;
 public class HashTableP {
     public static void main(String[] args) {
 
+        // Hash Map Cant Accept Null value.
+
         Hashtable<Integer, String> ht = new Hashtable<>();
 
         ht.put(10, "Ashpak");
@@ -14,7 +16,8 @@ public class HashTableP {
         ht.put(14, "Sourup");
         ht.put(7, "Vighnesh");
         ht.put(19, "Krishna");
-//
+
+
 //        ht.remove(12);
 //        System.out.println(ht.containsKey(3));
 //        System.out.println(ht.containsValue("Ashpak"));
