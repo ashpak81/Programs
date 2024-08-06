@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/HashMapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/hashSetp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/HashTable/HashTableP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/HashTable/HashTableP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/recursion/practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/recursion/practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/HashTableP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/HashTableP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/HashTable/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/HashTable/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
