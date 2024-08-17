@@ -1,6 +1,5 @@
-package Trees;
+package DSA.Trees;
 
-import java.nio.file.FileAlreadyExistsException;
 import java.util.LinkedList;
 import java.util.Queue;
 

@@ -12,10 +12,13 @@ public class subString {
             return ans;
         }
         String smallAns[] = findSubSequence(str.substring(1));
+
         String ans[] = new String[2 * smallAns.length];
+
         int k = 0;
+
         for (int i = 0; i < smallAns.length; i++) {
-            ans[k] = smallAns[i];
+            ans[k] = smallAns   [i];
             k++;
         }
 
@@ -23,6 +26,7 @@ public class subString {
             ans[k] = str.charAt(0) + smallAns[i];
             k++;
         }
+
         return ans;
     }
 

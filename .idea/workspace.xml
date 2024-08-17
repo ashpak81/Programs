@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/Trees/Treesp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Trees/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practiceinjava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/StringDSAPractice/subString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/StringDSAPractice/subString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Trees/Treesp$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Trees/Treesp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringDSAPractice/subString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringDSAPractice/subString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/Treesp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Trees/Treesp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,7 @@
     "Application.ArraySnake.executor": "Run",
     "Application.Array_practice.executor": "Run",
     "Application.Arrays.executor": "Run",
+    "Application.BST.executor": "Run",
     "Application.BalanceParentheses.executor": "Run",
     "Application.Book.executor": "Run",
     "Application.CompressString.executor": "Run",
@@ -80,6 +86,7 @@
     "Application.Practice.executor": "Run",
     "Application.PracticeImp.executor": "Run",
     "Application.PracticeQuations.executor": "Run",
+    "Application.Practiceinjava.executor": "Run",
     "Application.PushAtBottomStack.executor": "Run",
     "Application.Recursion1.executor": "Run",
     "Application.SortedRows.executor": "Run",
@@ -119,6 +126,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Trees.BST" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DSA.LinkedList.DoublyLinkedList" />
       <module name="Practice" />
@@ -128,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BST" />
         <item itemvalue="Application.DoublyLinkedList" />
       </list>
     </recent_temporary>
@@ -146,6 +167,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variable" />
     <option name="LAST_COMMIT_MESSAGE" value="Variable" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DSA/Trees/BST.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Practice$TimePass.ic" NAME="TimePass Coverage Results" MODIFIED="1721372890266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
