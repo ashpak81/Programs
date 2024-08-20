@@ -53,15 +53,56 @@ public class Practiceinjava {
 
     }
 
+    public static boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+
+        int[] charCount = new int[26];
+
+        for (int count : charCount) {
+            System.out.print(count);
+        }
+
+
+        for (int i = 0; i < s.length(); i++) {
+            charCount[s.charAt(i) - 'a']++;
+        }
+
+        System.out.println("--------------");
+
+        for (int count : charCount) {
+            System.out.print(count);
+        }
+        System.out.println();
+        int a = 'z';
+        System.out.println(a);
+        System.out.println();
+        for (int i = 0; i < t.length(); i++) {
+            charCount[t.charAt(i) - 'a']--;
+        }
+        System.out.println("-------------");
+
+        for (int count : charCount) {
+            System.out.print(count);
+            if (count != 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
 
     public static void main(String[] args) {
 
-        BigInteger bigNumber = new BigInteger("500");
-
-        BigInteger result = factorialHelper(bigNumber);
-
-
-        System.out.println(result);
+//        BigInteger bigNumber = new BigInteger("500");
+//
+//        BigInteger result = factorialHelper(bigNumber);
+//
+//
+//        System.out.println(result);
 
 //        int[] arr1 = {1,2,3,4,5};
 //        int[] arr2 = {1,2,3,4,2};
@@ -70,5 +111,6 @@ public class Practiceinjava {
 //        commonElemnt(arr1,arr2,arr3);
 
 
+        isAnagram("ashpak" ,"ashpak");
     }
 }
