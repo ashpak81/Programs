@@ -9,20 +9,18 @@ public class CompressString {
 
         char[] array = name.toCharArray();
 
-        for(int i =  0 ; i < array.length -1  ; i++){
-            if(array[i]==array[i+1]){
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] == array[i - 1]) {
                 count++;
-            }
-            else{
-                    ans.append(array[i-1]);
-                    ans.append(count);
-                    count = 1;
+            } else {
+                ans.append(array[i - 1]).append(count);
+                count = 1;
             }
         }
 
-        ans.append(array[array.length-1]);
-        ans.append(count);
-        System.out.println(ans);
+        // Append the last character and its count
+        ans.append(array[array.length - 1]).append(count);
 
+        System.out.println(ans.toString());
     }
 }

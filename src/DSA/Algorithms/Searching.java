@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Searching {
 
     static boolean search(int[] arr, int target) {
+
         for (int num : arr) {
             if (num == target) {
                 return true;
@@ -16,6 +17,7 @@ public class Searching {
     // Binary Searching
 
     static int binarySearch(int target, int[] arr) {
+
         int l = 0;
         int h = arr.length - 1;
 
