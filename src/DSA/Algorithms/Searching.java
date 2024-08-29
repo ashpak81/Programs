@@ -26,7 +26,7 @@ public class Searching {
             int mid = l + (h - l) / 2;
 
             if (arr[mid] == target) {
-                return mid; // Return the index of the found element
+                return mid;
             } else if (arr[mid] > target) {
                 h = mid - 1;
             } else {
@@ -34,7 +34,7 @@ public class Searching {
             }
         }
 
-        return -1; // Element not found
+        return -1;
     }
 
 
