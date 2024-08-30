@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/DSA/Algorithms/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/Algorithms/Sorting/mergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Algorithms/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Algorithms/Searching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Algorithms/SearchingAndSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/String/CompressString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/String/CompressString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/String/LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/String/LongestSubstring.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     &quot;Application.Arrays.executor&quot;: &quot;Run&quot;,
     &quot;Application.BST.executor&quot;: &quot;Run&quot;,
     &quot;Application.BalanceParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.Book.executor&quot;: &quot;Run&quot;,
     &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.CompressString.executor&quot;: &quot;Run&quot;,
@@ -124,7 +126,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/FSD-java/FSD-Programs/Practice/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BST">
+  <component name="RunManager">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.Trees.BST" />
       <module name="Practice" />
