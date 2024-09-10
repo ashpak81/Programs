@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f41964b-f3b6-4587-97e4-248c74cfc832" name="Changes" comment="Variable">
-      <change afterPath="$PROJECT_DIR$/src/ActivitySelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Graph/GraphMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/ActivitySelection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/ActivitySelection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/ActivitySelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/ActivitySelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DSA/Algorithms/Sorting/mergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DSA/Algorithms/Sorting/mergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA/Algorithms/Sorting/mergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Algorithms/Sorting/mergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,113 +51,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstracClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccessModifier.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActivitySelection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraySnake.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BalanceParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompressString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DSA.Stack.TimePass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Encapsulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonaciSereas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashTableP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritanc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListInt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoopLL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mainclass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MargeLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Methods_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiDimentionalArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Node.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Patter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Polymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PracticeImp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PracticeQuations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practiceinjava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PushAtBottomStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursion1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Serching.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedRows.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackDataStructure.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackUsingLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringPractcie.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringtoInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Submission.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimePass.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TimePass2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Treesp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.checkNext.executor&quot;: &quot;Run&quot;,
-    &quot;Application.duplicateElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.elementRearranging.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hashSetp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leaderInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.magicSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.printXn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pushZerosInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.rotateLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sortAStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sortedRows.executor&quot;: &quot;Run&quot;,
-    &quot;Application.subString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.swapArraay.executor&quot;: &quot;Run&quot;,
-    &quot;Application.swapLinkedListElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.switchcase.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/FSD-java/FSD-Programs/Practice/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstracClass.executor": "Run",
+    "Application.AccessModifier.executor": "Run",
+    "Application.ActivitySelection.executor": "Run",
+    "Application.ArraySnake.executor": "Run",
+    "Application.Array_practice.executor": "Run",
+    "Application.Arrays.executor": "Run",
+    "Application.BST.executor": "Coverage",
+    "Application.BalanceParentheses.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.Book.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.CompressString.executor": "Run",
+    "Application.DSA.Stack.TimePass.executor": "Run",
+    "Application.DoublyLinkedList.executor": "Run",
+    "Application.Encapsulation.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FibonaciSereas.executor": "Run",
+    "Application.GraphMatrix.executor": "Run",
+    "Application.HashMapp.executor": "Run",
+    "Application.HashTableP.executor": "Run",
+    "Application.Inheritanc.executor": "Run",
+    "Application.LL.executor": "Run",
+    "Application.LinkedListInt.executor": "Run",
+    "Application.LinkedListPractice.executor": "Run",
+    "Application.Loop.executor": "Run",
+    "Application.LoopLL.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Mainclass.executor": "Run",
+    "Application.MargeLinkedList.executor": "Run",
+    "Application.Methods_practice.executor": "Run",
+    "Application.MultiDimentionalArray.executor": "Run",
+    "Application.Node.executor": "Run",
+    "Application.Patter.executor": "Run",
+    "Application.Polymorphism.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PracticeImp.executor": "Run",
+    "Application.PracticeQuations.executor": "Run",
+    "Application.Practiceinjava.executor": "Run",
+    "Application.PushAtBottomStack.executor": "Run",
+    "Application.Recursion1.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.Serching.executor": "Run",
+    "Application.SortedRows.executor": "Run",
+    "Application.StackDataStructure.executor": "Run",
+    "Application.StackPractice.executor": "Run",
+    "Application.StackUsingLinkedList.executor": "Run",
+    "Application.StringBuilderExample.executor": "Run",
+    "Application.StringPractcie.executor": "Run",
+    "Application.StringRotation.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.StringtoInteger.executor": "Run",
+    "Application.Submission.executor": "Run",
+    "Application.TimePass.executor": "Debug",
+    "Application.TimePass2.executor": "Run",
+    "Application.Treesp.executor": "Run",
+    "Application.Variable.executor": "Run",
+    "Application.checkNext.executor": "Run",
+    "Application.duplicateElement.executor": "Run",
+    "Application.elementRearranging.executor": "Run",
+    "Application.hashSetp.executor": "Run",
+    "Application.leaderInArray.executor": "Run",
+    "Application.magicSquare.executor": "Run",
+    "Application.mergeSort.executor": "Run",
+    "Application.practice.executor": "Run",
+    "Application.printXn.executor": "Run",
+    "Application.pushZerosInArray.executor": "Run",
+    "Application.rotateLinkedList.executor": "Run",
+    "Application.sortAStack.executor": "Run",
+    "Application.sortedRows.executor": "Run",
+    "Application.subString.executor": "Run",
+    "Application.swapArraay.executor": "Run",
+    "Application.swapLinkedListElement.executor": "Run",
+    "Application.switchcase.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/FSD-java/FSD-Programs/Practice/src/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager" selected="Application.BST">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.Trees.BST" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA.Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.LinkedList.DoublyLinkedList" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BST" />
-        <item itemvalue="Application.DoublyLinkedList" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -180,5 +162,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Practice$TimePass.ic" NAME="TimePass Coverage Results" MODIFIED="1721372890266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/Practice$BST.ic" NAME="BST Coverage Results" MODIFIED="1725252959356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.Trees.*</FILTER>
+    </SUITE>
   </component>
 </project>
